@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Luxe Newsletter</title>
+    <link rel="stylesheet" href="../main/main.css">
+    <script src="../main/main.js" defer></script>
+    <style>
+        
+
+        .newsletter-container {
+            display: flex;
+            max-width: 100%;
+            flex-direction: column;
+            /* width: 100%; */
+            margin: 2%;
+            background-color: #fff; /* Body background */
+            /* padding: 20px; */
+            box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Header with background color #f6e3b7 (nav) */
+        .header-wrapper {
+            background-color: #f6e3b7; /* Warm peach color for header */
+            padding: 20px 0;
+            text-align: center; /* Center everything in the header */
+        }
+
+        /* Logo styling */
+        .logo-container {
+            margin-bottom: 10px; /* Space between logo and title */
+        }
+
+        .logo {
+            width: 50px; 
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        .newsletter-header h1 {
+            font-size: 2.5em;
+            color: #333;
+            /* margin: 20px 0; */
+            border-bottom: 2px solid #333; /* Simple black line under title */
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #333;
+            margin-top: 30px;
+            border-bottom: 2px solid #333; /* Black line under sub-headings */
+            padding-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        /* Updated button styles to match header color */
+        .shop-button {
+            display: inline-block;
+            padding: 12px 20px;
+            background-color: #f6e3b7; /* Peach color for buttons */
+            color: #333; /* Dark text for contrast */
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+            text-align: center;
+            margin-top: 20px;
+            border: 2px solid #f6e3b7; /* Border to match button color */
+        }
+
+        .shop-button:hover {
+            background-color: #ddbc8f; /* Slightly darker shade on hover */
+            border: 2px solid #ddbc8f; /* Border color on hover */
+        }
+
+        .featured-items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .item {
+            text-align: center;
+            /* width: 30%; */
+            white-space: normal;
+        }
+
+        .item img {
+            /* width: 100%; */
+            /* width: 15vw; */
+            width: auto;
+            height: 30vh;
+            border-radius: 8px;
+        }
+
+        footer {
+          background-color: #ddbc8f;
+          color: white;
+          text-align: center;
+          padding: 15px 0;
+          margin-top: 50px;
+}
+
+.developers {
+  text-align: center;
+}
+
+.developers p {
+  margin: 10px 0;
+}
+        
+    </style>
+</head>
+<body>
+    <div class ="dropdownmenu">  
+        <button id="toggablemenu">
+            <img src="../about-us/pictures/cl-4_dropdwn.png" alt="dropdown"></button>
+        <div id="cl-cont-3">
+            <ul>
+                <li><a href="../products/clothing1.html">Products</a></li>
+                <li><a href="../newsletter/Newsletter.html">Newsletter</a></li>
+                <li><a href="../about-us/aboutus.html">About Us</a></li>
+                <li><a href="../customer-service/customerservice.html">Customer Service</a></li>
+            </ul>
+        </div>
+        <div class="header-wrapper">
+            <nav class="newsletter-header">
+                <div class="logo-container">
+                    <img src="../Home/logo.png" alt="Retro Luxe Logo" class="logo" onclick="window.location.href='../Home/Home Test  MAIN.html'">
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="newsletter-container">
+        <div class="content">
+            <section class="content-section">
+                <p>Welcome to Retro Luxe, where we bring you the best of timeless fashion. From flowy dresses to chic accessories, we have everything you need to channel your inner retro diva.</p>
+
+                <h2>New Collection: Retro Luxury Awaits</h2>
+                <p>Embrace vintage-inspired designs with our newest arrivals that capture the essence of retro elegance.</p>
+
+                <div class="featured-items">
+                    <div class="item">
+                        <img src="https://girlgloss.com/wp-content/uploads/2013/11/Retro-Dresses-31.jpg" width="300" height="300" alt="Retro Dresses and Tops">
+                        <p>Dresses/ Tops</p>
+                    </div>
+                    <div class="item">
+                        <img src="https://img1.shopcider.com/product/1633940104000-mnHWNd.jpg" width="300" height="300" alt="Skirts/Jeans">
+                        <p>Skirts/ Jeans</p>
+                    </div>
+                    <div class="item">
+                        <img src="https://cdn.shopify.com/s/files/1/0229/0897/products/1940s_wide_brim_straw_hat_with_ribbon_trim-004_1024x1024.JPG?v=1443047034" width="300" height="300" alt="Headdress/Earrings">
+                        <p>Headdress/ Earrings</p>
+                    </div>
+                    <div class="item">
+                        <img src="https://i.pinimg.com/originals/5e/ed/74/5eed7406aa2436ac71490db746f85b6a.jpg" width="300" height="300" alt="Shoes/Bags">
+                        <p>Shoes/ Bags</p>
+                    </div>
+                </div>
+
+                
+
+                <h2>Style Tips: Embrace the Retro Glam</h2>
+                <ul>
+                    <li><strong>Flared Jeans:</strong> Go for bold, wide-legged denim for a true retro vibe.</li>
+                    <li><strong>Statement Tops:</strong> Opt for flowy blouses and graphic tees with bold prints.</li>
+                    <li><strong>Vintage Accessories:</strong> Add a touch of glamour with headdresses, chunky jewelry, and wide-brimmed hats.</li>
+                </ul>
+
+                <h2>Bestsellers: Retro Luxe Faves</h2>
+                <ul>
+                    <li><strong>The Daisy Mae Dress</strong> – A must-have classic piece.</li>
+                    <li><strong>The Retro Wrap Skirt</strong> – Effortlessly chic and timeless.</li>
+                </ul>
+                <p><a href="../Home/Home Test  MAIN.html" class="shop-button">Shop Bestsellers</a></p>
+
+                <h2>Exclusive Offer: 15% Off Your Next Purchase</h2>
+                <p>As a thank you for being part of the Retro Luxe fashion family, enjoy 15% off your next purchase with code <strong>RETRO15</strong>. Don't miss out!</p>
+                <p><a href="../Home/Home Test  MAIN.html" class="shop-button">Shop Now</a></p>
+            </section>
+        </div>
+
+     
+    </div>
+    <footer>
+    <p>&copy; 2025 Retro Luxe.</p>
+<hr />
+<div class:="developers">
+    <p>Developers:</p>
+    <strong>Bryant Timothy Lim</strong>
+    <strong><center>Catherine Grace A. Labrador</center></strong>
+    <strong><center>Erin Faye Fernandez</center></strong>
+    <strong><center>Johan Mar Loyola</center></strong>
+    <strong><center>Rosalie Joy I. Vicente</center></strong>
+</div>
+  </footer>
+
+
+
+</body>
+</html>
